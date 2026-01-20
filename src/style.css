@@ -1,0 +1,79 @@
+/* Global Styles */
+:root {
+    --primary-color: #2563eb;
+    --success-color: #16a34a;
+}
+
+.app-background {
+    background-color: #f8fafc;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.top-navigation-bar {
+    background: #1e293b;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.content-viewport {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.primary-heading {
+    color: #1e293b;
+    margin-top: 0;
+}
+
+/* Specific button classes for testing length-based sorting */
+.btn-action-primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-action-reset {
+    background: transparent;
+    color: #64748b;
+    border: 1px solid #cbd5e1;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.label-inactive {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.label-active {
+    color: var(--success-color);
+    font-weight: bold;
+}
+
+.log-container {
+    margin-top: 20px;
+    background: #0f172a;
+    color: #38bdf8;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: monospace;
+}
+
+.hidden-element {
+    display: none;
+}

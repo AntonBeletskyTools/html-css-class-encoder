@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal Demo System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-background">
+    <header class="top-navigation-bar">
+        <div class="logo-container">
+            <span id="brand-name">PROTECT-TECH</span>
+        </div>
+    </header>
+
+    <main class="content-viewport">
+        <section class="dashboard-card">
+            <h1 class="primary-heading">Secure Dashboard</h1>
+            <p class="status-description">System status: <span id="system-indicator" class="label-inactive">Standby</span></p>
+            
+            <div class="control-panel">
+                <button id="init-sequence-btn" class="btn-action-primary">Initialize System</button>
+                <button class="btn-action-reset">Reset View</button>
+            </div>
+        </section>
+
+        <div id="data-log-window" class="log-container hidden-element">
+            <p class="log-entry">Attempting secure handshake...</p>
+            <p class="log-entry">Data integrity verified.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

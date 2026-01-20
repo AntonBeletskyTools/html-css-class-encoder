@@ -1,41 +1,41 @@
 /* Global Styles */
 :root {
-    --primary-color: #v-13f6944f;
-    --success-color: #v-010fffc8;
+    --primary-color: #2563eb;
+    --success-color: #16a34a;
 }
 
-.v-cf4a9647 {
-    background-color: #v-233b9e07;
+.xcf4a96 {
+    background-color: #f8fafc;
     font-family: sans-serif;
     margin: 0;
 }
 
-.v-268144e3 {
-    background: #v-149fd7c7;
+.x268144 {
+    background: #1e293b;
     color: white;
     padding: 1rem 2rem;
 }
 
-.v-238a6a96 {
+.x238a6a {
     max-width: 800px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-.v-3384597f {
+.x338459 {
     background: white;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-.v-d3f4d444 {
-    color: #v-149fd7c7;
+.xd3f4d4 {
+    color: #1e293b;
     margin-top: 0;
 }
 
 /* Specific button classes for testing length-based sorting */
-.v-f58753cd {
+.xf58753 {
     background: var(--primary-color);
     color: white;
     border: none;
@@ -45,35 +45,35 @@
     font-weight: bold;
 }
 
-.v-a4915f64 {
+.xa4915f {
     background: transparent;
-    color: #v-0f32a451;
-    border: 1px solid #v-3b8940f1;
+    color: #64748b;
+    border: 1px solid #cbd5e1;
     padding: 12px 24px;
     border-radius: 6px;
     margin-left: 10px;
     cursor: pointer;
 }
 
-.v-61120119 {
-    color: #v-d344d4e6;
+.x611201 {
+    color: #ef4444;
     font-weight: bold;
 }
 
-.v-fd5fec97 {
+.label-active {
     color: var(--success-color);
     font-weight: bold;
 }
 
-.v-efc2bad1 {
+.xefc2ba {
     margin-top: 20px;
-    background: #v-32cffc76;
-    color: #v-4698766f;
+    background: #0f172a;
+    color: #38bdf8;
     padding: 15px;
     border-radius: 8px;
     font-family: monospace;
 }
 
-.v-3ded60a6 {
+.x3ded60 {
     display: none;
 }
