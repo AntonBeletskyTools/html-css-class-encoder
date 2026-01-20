@@ -1,0 +1,79 @@
+/* Global Styles */
+:root {
+    --primary-color: #v-13f6944f;
+    --success-color: #v-010fffc8;
+}
+
+.v-cf4a9647 {
+    background-color: #v-233b9e07;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.v-268144e3 {
+    background: #v-149fd7c7;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.v-238a6a96 {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.v-3384597f {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.v-d3f4d444 {
+    color: #v-149fd7c7;
+    margin-top: 0;
+}
+
+/* Specific button classes for testing length-based sorting */
+.v-f58753cd {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.v-a4915f64 {
+    background: transparent;
+    color: #v-0f32a451;
+    border: 1px solid #v-3b8940f1;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.v-61120119 {
+    color: #v-d344d4e6;
+    font-weight: bold;
+}
+
+.v-fd5fec97 {
+    color: var(--success-color);
+    font-weight: bold;
+}
+
+.v-efc2bad1 {
+    margin-top: 20px;
+    background: #v-32cffc76;
+    color: #v-4698766f;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: monospace;
+}
+
+.v-3ded60a6 {
+    display: none;
+}
